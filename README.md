@@ -1,1 +1,1 @@
-file:///C:/Users/manda/OneDrive/Desktop/children_of_lavie/donate/index.html
+https://vyshnavimanda.github.io/The_children_of_Lavie/
