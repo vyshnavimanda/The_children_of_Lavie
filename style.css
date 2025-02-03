@@ -1,0 +1,203 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAF3E0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #264653;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.main-content {
+    padding: 40px 20px;
+}
+
+.donation-container, .testimonial, .impact-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    border-top: 8px solid #F4A261;
+}
+
+select, input, button {
+    width: 100%;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D6453D;
+}
+
+.testimonial p, .impact-section p {
+    font-style: italic;
+    color: #6D6875;
+}
+
+.progress-bar {
+    width: 80%;
+    background-color: #ddd;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 65%;
+    height: 20px;
+    background-color: #E76F51;
+}
+
+.daf-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 40px auto;
+    border-top: 8px solid #F4A261;
+}
+
+.daf-container img {
+    width: 80%;
+}
+
+.daf-container input, .daf-container select {
+    width: calc(100% - 24px);
+    margin: 8px 0;
+}
+
+img[alt="DAF Direct"] {
+    width: 150px;
+    height: auto;
+}
+
+
+/* Updated Donation Impact Section */
+.impact-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.impact-section h3 {
+    font-size: 28px;
+    color: #264653;
+    margin-bottom: 30px;
+}
+
+.impact-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.impact-card {
+    background-color: #F4A261;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.impact-card .icon {
+    font-size: 40px;
+    background-color: #E76F51;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.impact-card h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.impact-card p {
+    font-size: 16px;
+    color: #6D6875;
+}
+
+.impact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .impact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .impact-card {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+/* Testimonial Carousel */
+.testimonial-carousel {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item {
+    display: none;
+    font-style: italic;
+    color: #6D6875;
+}
+
+.testimonial-item.active {
+    display: block;
+}
+
+.carousel-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-buttons button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #264653;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-buttons button:hover {
+    background-color: #E76F51;
+}
